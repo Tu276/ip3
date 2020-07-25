@@ -1,11 +1,11 @@
-# AKHAN NAMER
+# Delani Studip
 # Website link
 link https://tu276.github.io/ip_two
 #### Site
-HTML website Friday July 17 2020
+HTML website Friday July 26 2020
 feel free to add your name ... please do something of course **
 ## Description
- Web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.   
+ Delani Studio landing page (fictional)
 ## BDD
 An invalid day should be (d<=0) or (d>31)
 
