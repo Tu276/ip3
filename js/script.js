@@ -1,7 +1,12 @@
-// @ts-check
-var numbers = [1,2,3,4,5];
-var doubledNumbers = [];
-  doubledNumbers.forEach(function(number) {
-      doubledNumbers.push(number * 2);
-  });
-  alert(doubledNumbers)
+//@ts-check
+jQuery('h1').click(function() {
+    alert("This ia a heading tag")
+});
+
+jQuery('p').click(function() {
+    alert("This is a paragraph")
+});
+
+jQuery('img').click(function() {
+    alert("This is an image")
+});
