@@ -5,7 +5,7 @@ link https://tu276.github.io/ip_two
 HTML website Friday July 26 2020
 feel free to add your name ... please do something of course **
 ## Description
- Delani Studio landing page (fictional)
+ Delani Studio landing page (fictionals)
 ## BDD
 An invalid day should be (d<=0) or (d>31)
 
