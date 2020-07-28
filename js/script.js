@@ -1,12 +1,13 @@
-//@ts-check
-jQuery('h1').click(function() {
-    alert("This ia a heading tag")
-});
+$(document).ready(function() {
+  $('h1').click(function(){
+      alert("This is a heading tag")
+    });
 
-jQuery('p').click(function() {
-    alert("This is a paragraph")
-});
+    $('p').click(function(){
+      alert("This is a paragraph")
+    });
 
-jQuery('img').click(function() {
-    alert("This is an image")
+    $('img').click(function(){
+      alert("This is an image")
+    });
 });
