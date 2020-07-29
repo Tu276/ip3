@@ -10,4 +10,8 @@ $(document).ready(function() {
     $('img').click(function(){
       alert("This is an image")
     });
+    
+    $('img').click(function(){
+      $('img').show();
+    });
 });

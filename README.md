@@ -1,15 +1,12 @@
-# Delani Studip
+# Delani Studio
 # Website link
-link https://tu276.github.io/ip_two
+link https://tu276.github.io/ip3
 #### Site
 HTML website Friday July 26 2020
 feel free to add your name ... please do something of course **
 ## Description
- Delani Studio landing page (fictionals)
+ Delani Studio landing page (fictional)
 ## BDD
-An invalid day should be (d<=0) or (d>31)
-
-        An invalid month should be (m<= 0) or (m > 12)  
 
 ## Known Bugs
 There are no bugs that i know of  
