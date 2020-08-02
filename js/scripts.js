@@ -1,16 +1,18 @@
 $(document).ready(function() {
-  $("button#hello").click(function() { 
-    $("ul").prepend("<li>Hello!</li>.")
-    $("ul#webpage").prepend("<li>Why hello there!</li>");
+  $("h1").click(function() {
+    alert("This is a header.");
   });
 
-  $("button#goodbye").click(function() {
-    $("ul").prepend("<li>Goodbye!</li>");
-    $("ul#webpage").prepend("<li>Goodbye, dear user!</li>");
+  $("p").click(function() {
+    alert("This is a paragraph.");
   });
 
-  $("button#stop").click(function() {
-    $("ul").prepend("<li>Stop copying me!</li>");
-    $("ul#webpage").prepend("<li>Pardon me. I meant no offense.</li>");
+  $("img").click(function() {
+    alert("This is an image.");
+  });
+
+  $("h1").click(function() {
+    alert("This is a header.");
+    alert("I told you, THIS IS A HEADER!");
   });
 });
