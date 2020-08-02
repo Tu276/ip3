@@ -8,6 +8,7 @@
   color: #C5C6C7;
 }
 
+/*  trying to put D logo image over main image ..failled   */
 .MainUnderImage{
     position: relative;
     top: 0;
@@ -18,11 +19,32 @@
     position: absolute;
     top: 60px;
     left: 80px;
-  }
+}
 
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+/* TEXT positioning and centering on wecome to delani studio */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered3 {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
