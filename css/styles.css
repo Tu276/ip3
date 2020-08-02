@@ -1,0 +1,28 @@
+.column{
+  width: 350px;
+  float: left;
+  border: 2px solid rebeccapurple;
+  padding: 6px;
+  margin: 20px;
+  background-color: #1F2833;
+  color: #C5C6C7;
+}
+
+.MainUnderImage{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+  
+.LogoImage {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
