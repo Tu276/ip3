@@ -22,7 +22,7 @@
 }
 
 /* TEXT positioning and centering on wecome to delani studio */
-.container {
+.welcome {
   position: relative;
   text-align: center;
   color: white;
@@ -35,16 +35,33 @@
   transform: translate(-50%, -50%);
 }
 
-.centered2 {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .centered3 {
   position: absolute;
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+/* text align centre on services and aboutus */
+.page2 {
+  text-align: center;
+}
+
+
+/* services  */
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 150px;
+  right: 20px;
+  background-color: transparent;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
 }
