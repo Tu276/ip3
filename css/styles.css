@@ -67,3 +67,11 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
 }
+.landing-page{
+    background-image: url('../img/main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;     
+    height:130vh;
+    text-align: center;          
+}
