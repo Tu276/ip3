@@ -97,3 +97,11 @@ body {
   line-height: 1em; 
   font-weight: bold; 
 }
+
+#sayhi ::placeholder {
+  color: white;
+}
+ #sayhi input{
+  color: white;
+  background-color: transparent;
+ }
