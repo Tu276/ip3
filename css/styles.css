@@ -63,3 +63,7 @@
   padding-right: 20px;
   text-align: center;
 }
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
