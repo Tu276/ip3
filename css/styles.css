@@ -1,24 +1,24 @@
-.column{
+.column {
   width: 350px;
   float: left;
   border: 2px solid rebeccapurple;
   padding: 6px;
   margin: 20px;
-  background-color: #1F2833;
-  color: #C5C6C7;
+  background-color: #1f2833;
+  color: #c5c6c7;
 }
 
 /*  trying to put D logo image over main image ..failled   */
-.MainUnderImage{
-    position: relative;
-    top: 0;
-    left: 0;
+.MainUnderImage {
+  position: relative;
+  top: 0;
+  left: 0;
 }
-  
+
 .LogoImage {
-    position: absolute;
-    top: 60px;
-    left: 80px;
+  position: absolute;
+  top: 60px;
+  left: 80px;
 }
 
 /* TEXT positioning and centering on wecome to delani studio */
@@ -35,7 +35,6 @@
   transform: translate(-50%, -50%);
 }
 
-
 .centered3 {
   position: absolute;
   top: 65%;
@@ -46,7 +45,6 @@
 .page2 {
   text-align: center;
 }
-
 
 /* services  */
 /* Container holding the image and the text */
