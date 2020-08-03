@@ -75,3 +75,18 @@ body {
     height:130vh;
     text-align: center;          
 }
+#logo  {
+  padding-top: 250px;
+}
+
+#lp {
+  color: white;    
+  text-transform: uppercase; 
+  text-align: center;  
+  width: 100%; 
+}
+
+#mouseClick {
+  animation: bounce 2s infinite;
+  padding-top: 160px;
+}
