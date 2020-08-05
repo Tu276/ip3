@@ -1,258 +1,185 @@
-body{
-  font-family:  sans-serif;
-  overflow-x: hidden;
+#mainpadding { 
+  padding-top: 14%;
+  margin-bottom: 9%;
 }
 
 
-.landing-page{
-  background-image: url('../img/main.jpg');
+#background {
+  background-image: url('images/backgrounds/h_img.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: cover;  
-  background-position: center;     
-  height:130vh;
-  text-align: center;          
-}
-#logo{
-  padding-top: 250px;
-}
-.landing-page >h1{
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
-  line-height: 4rem;
-  padding-top: 47px; 
-  font-weight: bold;  
-}
-
-#lp{
-  color: white;    
-  text-transform: uppercase; 
-  text-align: center;  
-  width: 100%; 
-}
-
-#mouseClick {
-  animation: bounce 2s infinite;
-  padding-top: 160px;
-}
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-55px);
-  }
-  60% {
-    transform: translateY(-45px);
-  }
-}  
-
-
-@media  only screen and (max-width:600px){
-    .landing-page{
-        margin-right: auto;
-        margin-left: auto;
-    }     
-} 
-
-
-.AboutUs {
-  padding: 40px;
-  text-align:center;
-}
-
-.AboutUs  >h1{
-  font-weight: bold;
-}
-
-.AboutUs  >p{
-  line-height: 2em;    
+  position: relative;
 }
 
 
-.services{
-  background-image: url('../image/services.jpg'), linear-gradient(#525052, #413f3f);
-  background-repeat: no-repeat;
-  background-size: cover;  
-  background-position: center;     
-  padding: 100px 0 100px 0;
-  opacity: 0.9;
-  text-align: center;   
-  color: white;
-  line-height: 2em;
+.mainheading { 
+  font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
+  text-shadow: 0 0 15px black;
+  color: ivory;
+  font-size: 50px;
+  
+
 }
-.services>h2{
-  font-weight: bold;
+
+.slogan {
+  font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
+  text-shadow: 0 0 10px rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+
+}
+
+
+#about { 
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+#ourservice { 
+  background-image: url('images/backgrounds/s_image.jpg');
+  color: #fff;
+  margin-bottom: 50px;
+  background-position: center;
+  padding-top: 120px;
+  padding-bottom: 80px;
 }
 
 
-.TOGG {
-  text-align: center; 
-  padding: 25px 0 25px 0; 
-  padding-left: 9px;
-  padding-right: 40px;      
+.whatwedo { 
+  margin-bottom: 4%;
 }
 
-.TOGG  >h2{    
-  font-weight: bold;
-}
 
-.design {
+
+.hide { 
   display: none;
 }
 
 
-.portfolio{
-  padding-top: 20px;
-  padding-bottom: 30px;
-  padding-left: 9%;
-  padding-right: 9%;
+
+.ptag { 
+  
+  color: rgb(245, 245, 245);
+  font-weight: 100%;
+  font-size: 1.1em;
+  margin: 20% 5%;
 }
 
-.portfolio >h2{
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-}
-#pro{   
-  margin-top: 30%; 
-  text-align: center;
-  font-size: 25px;    
-}
-
-.project{
-  width: 100%;
-  height: 100%;
-  background-color:white;    
-  opacity: 0.2;
-  position: absolute;
-  top: 0.0em;
-  display:none;
-  color:black;
-  font-size: 20px;        
-}
-
-.project2{    
-  width: 100%;
-  height: 100%;
-  background-color:white;    
-  opacity: 0.6;
-  position: absolute;
-  top: 0.0em;
-  display:none;
-  color:black;
-  font-size: 20px;   
-}
-.project3{
-  width: 100%;
-  height: 100%;
-  background-color:white;    
-  opacity: 0.4;
-  position: absolute;
-  top: 0.0em;
-  display:none;
-  color:black;
-  font-size: 20px;
-  }
-.project4{
-  width: 100%;
-  height: 100%;
-  background-color:white;    
-  opacity: 0.5;
-  position: absolute;
-  top: 0.0em;
-  display:none;
-  color:black;
-  font-size: 20px;
-  }
-  .project5{
-  width: 100%;
-  height: 100%;
-  background-color:white;    
-  opacity: 0.5;
-  position: absolute;
-  top: 0.0em;
-  display:none;
-  color:black;
-  font-size: 20px;
-  }
-  .project6{
-  width: 100%;
-  height: 100%;
-  background-color:white;    
-  opacity: 0.5;
-  position: absolute;
-  top: 0.0em;
-  display:none;
-  color:black;
-  font-size: 20px;
-  }
-  .project7{
-  width: 100%;
-  height: 100%;
-  background-color:white;    
-  opacity: 0.5;
-  position: absolute;
-  top: 0.0em;
-  display:none;
-  color:black;
-  font-size: 20px;
-  }
-  .project8{
-  width: 100%;
-  height: 100%;
-  background-color:white;    
-  opacity: 0.5;
-  position: absolute;
-  top: 0.0em;
-  display:none;
-  color:black;
-  font-size: 20px;
-  }
 
 
-.formzs{
-  background-image: url('../img/contactus.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;      
+#portfolio img { 
+  width: 100%;
 }
 
-.formzs >h2{
-  text-align: center;
-  color: white;
-  font-weight: bold;
-  padding: 25px;
+
+
+.card-deck { 
+  padding: 1% 4%;
 }
-#form1 {
-  background-color: transparent;
+
+
+
+.card { 
+  margin: 10px 0;
+  position: relative;
+  overflow: hidden;
 }
-.textarea {
+
+
+
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background: rgba(0, 0, 0, 0.582);
+  cursor: pointer;
+  display: none;
+  transition: all 0.5s ease;
+}
+
+
+
+.card:hover img { 
+  transform: scale(1.2);
+  transition: all 2s ease;
+}
+
+
+
+
+.form-cont input { 
+  width: 39%;
+  background: transparent;
+}
+
+
+.form-cont textarea { 
+  margin-top: 10px;
   width: 100%;
   height: 200px;
-  color: white;
-  padding: 12px; 
-  border: 1px solid #ccc; 
-  border-radius: 4px;
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px;
-  resize: vertical ;
- }
-#sayhi ::placeholder {
-  color: white;
+  background: transparent;
 }
- #sayhi input{
-  color: white;
-  background-color: transparent;
- }
 
 
 
-.footer{
+.form-cont { 
   text-align: center;
-  padding: 15px 0 15px 0;  
-  line-height: 1em; 
-  font-weight: bold; 
+  position: relative;
+  width: 700px;
+  max-width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+::placeholder,
+.con {
+  color: #fff;
+}
+
+
+::placeholder{
+  font-size: 20px;
+}
+
+
+
+.con { 
+  padding-bottom: 30px;
+}
+
+
+
+#contact {
+  padding-top: 100px;
+  margin-bottom: 50px;
+  background-image: url('images/backgrounds/c_image.jpg');
+  background-size: cover;
+  background-position: cover;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 10%;
+}
+
+
+
+.social img {
+  border-radius: 50%;
+  transition: 0.2s ease-out;
+}
+
+
+
+.social img:hover { 
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  margin: -3px;
+  padding: 3px;
+  background: yellowgreen;
+}
+
+
+
+.footer { 
+  margin-top: 30px;
+  padding: 50px;
 }
