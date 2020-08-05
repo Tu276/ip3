@@ -4,7 +4,7 @@
 }
 
 
-#background {
+#background {  
   background-image: url('images/backgrounds/h_img.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@
 }
 
 
-.mainheading { 
+.mainheading {
   font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
   text-shadow: 0 0 15px black;
   color: ivory;
@@ -52,7 +52,7 @@
 
 
 
-.hide { 
+.hide {
   display: none;
 }
 
@@ -88,6 +88,7 @@
 
 
 
+.card-1 {
   position: absolute;
   width: 100%;
   min-height: 100%;
@@ -132,7 +133,7 @@
 }
 
 
-::placeholder,
+::placeholder, 
 .con {
   color: #fff;
 }
@@ -163,14 +164,14 @@
 
 
 
-.social img {
+.social img { 
   border-radius: 50%;
   transition: 0.2s ease-out;
 }
 
 
 
-.social img:hover { 
+.social img:hover {
   box-shadow: 0 0 20px rgb(0, 0, 0);
   margin: -3px;
   padding: 3px;
